@@ -1,0 +1,51 @@
+.scorePage{
+  width: 100%;
+  height: auto;
+  background-color: #537188;
+  color: wheat;
+}
+.scorePageContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.peopleIndex{
+  display: flex;
+}
+.peopleUser{
+  display: flex;
+  flex-direction: row;
+}
+
+.peopleName{
+  font-size: 1.5em;
+}
+.peopleScoreContainer{
+  display: flex;
+}
+.peopleIndex{
+  gap: 20px;
+}
+.peopleScoreContainer{
+  gap: 20px;
+}
+.inputName{
+  font-size: 1rem;
+}
+.scoreInput{
+  width: 150px;
+  background-color: wheat;
+  height: 30px;
+  border-radius: 20px;
+}
+button{
+  width: 200px;
+  height: 50px;
+  color: wheat;
+  background-color: #0C134F;
+  border: none;
+  border-radius: 20px;
+  margin-top: 2rem;
+}
